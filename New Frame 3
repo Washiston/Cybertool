@@ -140,7 +140,7 @@ public class NewJFrame3 extends javax.swing.JFrame {
                 });
             }
             jTextField1.setText(" Loading Complete!"); // Update status after loading completes
-            NewJFrame5 newFrame = new NewJFrame5();
+            NewJFrame4 newFrame = new NewJFrame4();
             newFrame.setVisible(true);
         } catch (NumberFormatException ex) {
             JOptionPane.showMessageDialog(this, "Please enter a valid age.", "Invalid Age", JOptionPane.ERROR_MESSAGE);
